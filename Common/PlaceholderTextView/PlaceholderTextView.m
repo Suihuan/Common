@@ -44,7 +44,7 @@
     
     self.placeholdeWidth=CGRectGetWidth(self.frame)-2*left;
     self.placeholderColor = [UIColor lightGrayColor];
-    self.placeholderFont = SYSTEMFONT(14);
+    self.placeholderFont = [UIFont systemFontOfSize:14];
     _PlaceholderLabel=[[UILabel alloc] initWithFrame:CGRectMake(left, top
                                                                , _placeholdeWidth, hegiht)];
     _PlaceholderLabel.font=self.placeholderFont?self.placeholderFont:self.font;
